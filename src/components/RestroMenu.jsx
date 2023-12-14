@@ -23,17 +23,16 @@ const RestroMenu =  () => {
 
     const {itemCards} = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
 
-    console.log(itemCards);
     return (
 
     <div className="menu">
-        <h1>{name}</h1>
-        <p>Price - {costForTwo/100} per two</p>
+        <h1 className="font-bold m-1 text-2xl">{name}</h1>
+        <p className="ml-7"> Price - {costForTwo/100} per two</p>
         
-        <h2>Menu</h2>
-        <ul>
+        <h2 className="font-bold m-1 text-xl">Menu</h2>
+        <ul className="">
         {itemCards.map((item) => (
-        <li className="menuitems" key={item.card.info.id}>{item.card.info.name} - {item.card.info.price/100 || item.card.info.defaultPrice/100} per two</li>
+        <li className="ml-7" key={item.card.info.id}>{item.card.info.name} - {item.card.info.price/100 || item.card.info.defaultPrice/100} per two</li>
       ))}    
         </ul>
     </div>

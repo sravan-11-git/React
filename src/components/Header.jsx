@@ -12,20 +12,20 @@ const Header = () => {
     let butname = "Log In"
     let [butname1,setbutname] = useState(butname);
     return (
-            <div id="header">
+            <div className="flex justify-between border border-solid border-black mt-2" >
                 <div className="logo">
-                    <img alt="logo" className="logo_img" src={logo_img1}></img>
+                    <img alt="logo" className="w-40" src={logo_img1}></img>
                 </div>
 
-                <div className="nav-container">
-                    <ul className="nav-items">
-                        <li className="status">Online Status : {onlineStatus ? "🟢" : "🔴"}</li>
-                        <li><Link to ="/">Home</Link></li>
-                        <li><Link to ="/About">About Us</Link></li>
-                        <li><Link to ="/Contact">Contact</Link></li>
-                        <li><Link to="/Grocery">Grocery</Link></li>
-                        <li className="cart">Cart</li>
-                        <button className="butto" onClick={() => {
+                <div className="flex items-center ">
+                    <ul className="flex p-5 mb-5">
+                        <li className="px-2 text-lg" >Online Status : {onlineStatus ? "🟢" : "🔴"}</li>
+                        <li className="px-2 text-lg"><Link to ="/">Home</Link></li>
+                        <li className="px-2 text-lg"><Link to ="/About">About Us</Link></li>
+                        <li className="px-2 text-lg"><Link to ="/Contact">Contact</Link></li>
+                        <li className="px-2 text-lg"><Link to="/Grocery">Grocery</Link></li>
+                        <li className="px-2 text-lg">Cart</li>
+                        <button className="px-2 text-lg" onClick={() => {
                             butname1 === "Log In" ? setbutname("Log Out") : setbutname("Log In");
                         }}>{butname1}</button>
 

@@ -7,9 +7,7 @@ const useRestroMenuHook = () =>{
     const [resInfo, setresInfo] = useState(null);
 
     const {ressId} = useParams();
-
     
-
     useEffect(() => {
         fetchMenu1();
 

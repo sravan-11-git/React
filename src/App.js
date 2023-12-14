@@ -9,8 +9,6 @@ import { createBrowserRouter ,RouterProvider ,Outlet} from "react-router-dom";
 import RestroMenu from "./components/RestroMenu";
 //import Grocery from "./components/Grocery";
 
-
-
 const AppLayout = () => {
 
     return (
@@ -19,7 +17,7 @@ const AppLayout = () => {
             <Outlet/>
         </div>
     )
-}
+} 
 
 const Grocery = lazy(() => import("./components/Grocery"));
 

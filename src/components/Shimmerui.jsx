@@ -1,16 +1,11 @@
 const Shimmer = () => {
     
     return (
-    <div className="shim-cont">
-            <div className="shim"></div>
-            <div className="shim"></div>
-            <div className="shim"></div>
-            <div className="shim"></div>
-            <div className="shim"></div>
-            <div className="shim"></div>
-            <div className="shim"></div>
-            <div className="shim"></div>
-            <div className="shim"></div>
+    <div className="flex flex-wrap ml-7">
+
+                {Array.from({ length: 20 }, (_, i) => (
+                        <div key={i} className="m-4 p-4 w-[250px] h-40 bg-slate-300"></div>
+                    ))}
     </div>
     )
 }

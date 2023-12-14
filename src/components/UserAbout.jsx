@@ -1,4 +1,3 @@
-
 const UserAbout1 = (props) => {
     const {name} = props;
     return (<div>
@@ -6,4 +5,5 @@ const UserAbout1 = (props) => {
         <h2>duplicate About</h2>
     </div>)
 }
-export default UserAbout1; 
+export default UserAbout1;
+ 
