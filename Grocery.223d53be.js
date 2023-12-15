@@ -1,0 +1,2 @@
+var e=("undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"undefined"!=typeof window?window:"undefined"!=typeof global?global:{}).parcelRequire164e;(0,e.register)("bRIJw",function(l,o){Object.defineProperty(l.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(l.exports,"default",{get:function(){return n},set:void 0,enumerable:!0,configurable:!0});var i=e("dSJz3"),n=()=>(0,i.jsx)("h1",{children:"This page tells you about list of all groceries available in your nearest area..."})});
+//# sourceMappingURL=Grocery.223d53be.js.map
