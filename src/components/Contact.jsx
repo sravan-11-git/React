@@ -13,7 +13,7 @@ if(onlineStatus === false){
     return (<div>
         <h1>Sravan Thipparthy</h1>
         <h2>React Developer</h2>
-        <h3>Phone: 9959285609</h3>
+        <h3>Phone: +919959285609</h3>
         <h3>Gmail: sravanthipparthy@gmail.com</h3>
     </div>)
 }
