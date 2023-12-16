@@ -1,9 +1,11 @@
 {
-  "homepage": "https://github.com/sravan-11-git/React",
+
+  "homepage": "https://sravan-11-git.github.io/React/",
   "name": "namaste-react",
   "version": "1.0.0",
   "description": "React by Sravan",
   "scripts": {
+
     "test": "jest",
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -12,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/sravan-11-git/React)"
+    "url": "https://github.com/sravan-11-git/React"
   },
   "keywords": [
     "Sravan",
