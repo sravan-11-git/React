@@ -1,6 +1,6 @@
 import useOnlineStatus from "../utils/useOnlineStatus";
-import UserAbout1 from "./UserAbout";
-import Aboutclass2 from "./ClassCompAbove";
+//import UserAbout1 from "./UserAbout";
+//import Aboutclass2 from "./ClassCompAbove";
 
 const About = () => {
 
@@ -13,8 +13,8 @@ const About = () => {
     return (<div>
         <h1 className="text-2xl font-bold my-2 ml-1 ">Hi, Iam Sravan Thipparthy</h1>
         <h2 className="text-lg font-bold ml-1">Welcome to My React Project</h2>
-        <UserAbout1 name ="thipparthy"/>
-        <Aboutclass2 location = "warangal"/>
+         {/*<UserAbout1 name ="thipparthy"/>
+        <Aboutclass2 location = "warangal"/> */}
         
     </div>)
 }

@@ -1,42 +1,82 @@
 {
 
   "homepage": "https://sravan-11-git.github.io/React/",
+
   "name": "namaste-react",
+
   "version": "1.0.0",
+
   "description": "React by Sravan",
+
   "scripts": {
 
     "test": "jest",
+
     "start": "parcel index.html",
+
     "build": "parcel build index.html",
+
     "predeploy": "npm run build",
+
     "deploy": "gh-pages -b main -d dist"
+
   },
+
   "repository": {
+
     "type": "git",
+
     "url": "https://github.com/sravan-11-git/React"
+
   },
+
   "keywords": [
+
     "Sravan",
+
     "React"
+
   ],
+
   "author": "Sravan Thipparthy",
+
   "license": "ISC",
+
   "devDependencies": {
+
     "gh-pages": "^6.1.0",
+
     "parcel": "^2.10.3",
+
     "postcss": "^8.4.32",
+
     "process": "^0.11.10",
+
     "tailwindcss": "^3.3.6"
+
   },
+
   "dependencies": {
+
+    "@vercel/speed-insights": "^1.0.2",
+
     "build": "^0.1.4",
+
     "dist": "^0.1.2",
+
     "react": "^18.2.0",
+
     "react-dom": "^18.2.0",
+
     "react-router-dom": "^6.20.1"
+
   },
+
   "browserslist": [
+
     "last 5 versions"
+
   ]
+
 }
+
