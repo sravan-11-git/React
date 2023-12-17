@@ -44,7 +44,7 @@ const Body = () => {
               setFilteredRestro(filteredText)
             }}>Search</button>
             <button className="px-3 py-[0.5] mx-1 bg-white hover:bg-gray-200  "  onClick={() => {
-                  newList = listofRestros.filter(restaurants => restaurants?.info?.avgRating > 4.4)
+                  let newList = listofRestros.filter(restaurants => restaurants?.info?.avgRating > 4.4)
                   setFilteredRestro(newList);
             }   
             }  >Top Rated Restaurents</button>
