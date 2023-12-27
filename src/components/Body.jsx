@@ -24,8 +24,8 @@ const Body = () => {
 
       console.log(json);
 
-      setlistofRestros(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-      setFilteredRestro(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      setlistofRestros(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      setFilteredRestro(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     }
     
     const onlineStatus = useOnlineStatus();
