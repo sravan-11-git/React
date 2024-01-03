@@ -3,7 +3,9 @@ import {  useState , useEffect } from "react";
 import Shimmer from "./Shimmerui";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import MockData from "../utils/MockData";
 const Body = () => {
+
   let [listofRestros ,setlistofRestros] = useState([]);
 
   let [fliteredRestro , setFilteredRestro] = useState([]);
@@ -17,15 +19,17 @@ const Body = () => {
     },[]);
 
     const fetchData = async () => {
-      const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.5945627&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
-      
+      const Mockdata1 = MockData;
+      //"https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9715987&lng=77.5945627&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
       //https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.0011459&lng=79.5747427&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-      const json =await data.json();
+      //const json =await data.json();
 
-      console.log(json);
+      console.log(Mockdata1);
 
-      setlistofRestros(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-      setFilteredRestro(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      //setlistofRestros(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      //setFilteredRestro(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+      setlistofRestros(Mockdata1);
+      setFilteredRestro(Mockdata1);
     }
     
     const onlineStatus = useOnlineStatus();
@@ -40,18 +44,18 @@ const Body = () => {
             <input type="text" className="border border-solid border-black" value={searchtext} onChange={(e) => {setsearchtext(e?.target?.value)}}></input>
             <button className="px-3 py-[0.5] mx-2 bg-white  hover:bg-gray-200" onClick={() => {
               //filter
-              let filteredText = listofRestros.filter(restaurants => restaurants?.info?.name?.toLowerCase().includes(searchtext.toLowerCase()));
+              let filteredText = listofRestros.filter(MockData => MockData?.name?.toLowerCase().includes(searchtext.toLowerCase()));
               setFilteredRestro(filteredText)
             }}>Search</button>
             <button className="px-3 py-[0.5] mx-1 bg-white hover:bg-gray-200  "  onClick={() => {
-                  let newList = listofRestros.filter(restaurants => restaurants?.info?.avgRating > 4.4)
+                  let newList = listofRestros.filter(MockData=> MockData?.avgRating > 4.4)
                   setFilteredRestro(newList);
             }   
             }  >Top Rated Restaurents</button>
             </div>
          <div className="flex  flex-wrap items-center ml-5 ">
-           {fliteredRestro.map(restaurants =>  
-              <Link to={"/restaurants/"+restaurants?.info?.id} key = {restaurants?.info?.id} className=""><Rest_cont   resData = {restaurants}/></Link>    
+           {fliteredRestro.map(MockData =>  
+              <Link to={"/restaurants/"+MockData?.id} key = {MockData?.id} className=""><Rest_cont   resData = {MockData}/></Link>    
            )}
          </div>
      </div> 
