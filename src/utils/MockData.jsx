@@ -36,7 +36,8 @@ const MockData = [
         "Andhra Pepper Chicken - 299 per two",
         "Ghee Gulab Jamun (2 Pcs) - 59 per two",
         "Sweet Lassi - 65 per two",
-        "Dry Fruit Lassi - 79 per two"],
+        "Dry Fruit Lassi - 79 per two",
+        "Mango Juice - 116 per two"]
 
         },
     
@@ -55,7 +56,7 @@ const MockData = [
             parentId: "10530",
             avgRatingString: "4.6",
             totalRatingsString: "1K+",
-            items:["Butter Paneer Biryani Family Pack (serves 3-4) - 899 per two",
+            items:[" Biryani Family Pack (serves 3-4) - 899 per two",
             "Paneer Makhni Biryani - 299 per two",
             "Hyderabadi Paneer Biryani - 299 per two",
             "Egg Biryani - 249 per two",
@@ -73,7 +74,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]  
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
 
         {
@@ -110,8 +112,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
-
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
 
@@ -150,7 +152,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
 
         },
 
@@ -189,7 +192,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
 
         },
         {
@@ -228,8 +232,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
-
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
 
         {
@@ -269,7 +273,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
 
         },
         {
@@ -306,7 +311,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "65797",
@@ -344,7 +350,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "614642",
@@ -382,7 +389,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "3434",
@@ -419,7 +427,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "69876",
@@ -456,7 +465,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "12808",
@@ -494,7 +504,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "396741",
@@ -534,7 +545,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "448116",
@@ -574,7 +586,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "16073",
@@ -595,25 +608,26 @@ const MockData = [
             parentId: "1252",
             avgRatingString: "4.7",
             totalRatingsString: "10K+",
-            items:["Butter Paneer Biryani Family Pack (serves 3-4) - 899 per two",
-            "Paneer Makhni Biryani - 299 per two",
-            "Hyderabadi Paneer Biryani - 299 per two",
-            "Egg Biryani - 249 per two",
-            "Special Boneless Chicken Dum Biryani - 359 per two",
-            "Boneless Kebab Biryani - 349 per two",
-            "Chicken Tikka Masala Biryani - 349 per two",
-            "Andhra Veg Meals For 2 - 559 per two",
-            "Andhra Veg Carrier Meals- (for 3-4) - 739 per two",
-            "Andhra Non-Veg Meals For 1 - 349 per two",
-            "Andhra Non-Veg Carrier Meals (for 3-4) - 939 per two",
-            "Andhra Style Chicken Biryani - 349 per two",
-            "Bhai Chicken Biryani - 359 per two",
-            "Bhai Chicken Biryani and Chicken Kebab Combo - 499 per two",
-            "Fried Chicken Kebab(Boneless) - 279 per two",
-            "Andhra Pepper Chicken - 299 per two",
-            "Ghee Gulab Jamun (2 Pcs) - 59 per two",
-            "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            items:["Slow Churn Mango Ice Cream 500 ML - 375 per two",
+              "Slow Churn Strawberry Ice Cream 500 ML - 375 per two",
+              "Slow Churn Guava Ice Cream 500 ML - 375 per two",
+              "Slow Churn Chikoo Ice Cream 500 ML - 375 per two",
+              "Slow Churn Jamun Ice Cream 500 ML - 375 per two",
+              "Hazelnut Chocolate Ice Cream 500ml - 325 per two",
+              "Choco Brownie Fudge Cup 100ml - 80 per two",
+              "Divine Chocolate Chocochip Cup 100ml - 80 per two",
+              "Cadbury Crackle 700ml - 379 per two",
+              "Choco Brownie Fudge 700ml - 319 per two",
+              "Oreo & Cream 700ml - 299 per two",
+              "Divine Chocolate Sensation 700ml - 259 per two",
+              "Fruit & Nut 700ml - 259 per two",
+              "Gulab Jamun Ice cream 500ml - 275 per two",
+              "Butterscotch 700ml - 180 per two",
+              "Alphonso Mango 700ml - 180 per two",
+              "Vanilla 700ml - 150 per two",
+              "Magnum Almond Ice Cream 80ml - 99 per two",
+              "Magnum Brownie Icecream 80ml - 99 per two",
+              "Magnum Chocolate Truffle Ice Cream 80ml - 99 per two"]
         },
         {
             id: "363507",
@@ -650,7 +664,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "29784",
@@ -687,7 +702,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "124178",
@@ -726,7 +742,8 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         },
         {
             id: "29063",
@@ -766,15 +783,13 @@ const MockData = [
             "Andhra Pepper Chicken - 299 per two",
             "Ghee Gulab Jamun (2 Pcs) - 59 per two",
             "Sweet Lassi - 65 per two",
-            "Dry Fruit Lassi - 79 per two"]
+            "Dry Fruit Lassi - 79 per two",
+            "Mango Juice - 116 per two"]
         }
 
     ]
 
 
 
-
-  console.log(MockData.map(MockData =>MockData?.items))
-  
 
 export default MockData;

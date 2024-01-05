@@ -4,7 +4,11 @@ import Shimmer from "./Shimmerui";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import MockData from "../utils/MockData";
+import GroupedMenuData from "./GroupedMenuData";
+
 const Body = () => {
+
+  console.log(GroupedMenuData)
 
   let [listofRestros ,setlistofRestros] = useState([]);
 
