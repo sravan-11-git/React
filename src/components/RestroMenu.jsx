@@ -81,7 +81,7 @@ const RestroMenu = () => {
   return (
     <div className="menu">
       <h1 className="font-bold m-1 text-2xl">{name}</h1>
-      <p className="ml-7"> Price - {costForTwo} per two</p>
+      <p className="ml-7"> Price - {costForTwo/100} per two</p>
       <h2 className="font-bold m-1 text-xl">Menu</h2>
       <ul>
         {mergedItemCards.map((item, index) => (
