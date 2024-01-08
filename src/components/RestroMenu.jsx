@@ -85,12 +85,12 @@ const RestroMenu = () => {
       <h2 className="font-bold m-1 text-xl">Menu</h2>
       <ul>
         {mergedItemCards.map((item, index) => (
-          <li className="ml-7" key={item?.card?.info?.id}>
+          <li className="ml-7 " key={item?.card?.info?.id}>
             {item?.card?.info?.name} - {item?.card?.info?.price / 100 || item?.card?.info?.defaultPrice / 100} per two
           </li>
         ))}
       </ul>
-    </div>
+    </div> 
   );
 };
 
