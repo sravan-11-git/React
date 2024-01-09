@@ -79,8 +79,8 @@ const RestroMenu = () => {
   const mergedItemCards = [...itemCards1, ...itemCards2];
 
   return (
-    <div className="menu text-center bg-slate-200">
-      <h1 className="font-bold m-1 text-2xl">{name}</h1>
+    <div className="menu text-center">
+      <h1 className="font-bold m-3 text-2xl">{name}</h1>
       <p className="ml-7"> Price - {costForTwo/100} per two</p>
       <h2 className="font-bold m-1 text-xl">Menu</h2>
       <ul>
